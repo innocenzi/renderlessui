@@ -1,14 +1,15 @@
-import { App as Application } from "vue";
-import HelloWorld from "./HelloWorld.vue";
+import { defineComponent } from "vue";
 
-import { registerComponent } from "./../../utils/plugins/index";
-
-const Plugin = {
-  install(vue: Application) {
-    registerComponent(vue, HelloWorld);
+export default defineComponent({
+  name: "HelloWorld",
+  props: {
+    msg: String
+  },
+  setup() {
+    const textmsg = "I am Hello World Component";
+    console.log(textmsg);
+    return {
+      textmsg
+    };
   }
-};
-
-export default Plugin;
-
-export { HelloWorld };
+});

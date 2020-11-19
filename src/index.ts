@@ -7,6 +7,7 @@ const install: Exclude<Plugin["install"], undefined> = (
 ) => {
   setVueInstance(instance);
   for (const componentKey in components) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     instance.use((components as any)[componentKey]);
   }
 };
