@@ -16,16 +16,17 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve src/playground/main",
-    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "build:es": "rimraf dist && cross-env NODE_ENV=production rollup --config rollup.config.js --format es",
-    "build:js": "rimraf dist && cross-env NODE_ENV=production rollup --config rollup.config.js",
-    "build:js_css": "rimraf dist && cross-env NODE_ENV=production SEP_CSS=true rollup --config rollup.config.js"
+    "build:js": "rimraf dist && cross-env NODE_ENV=production rollup --config rollup.config.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
+  "np": {
+		"contents": "dist"
+	},
   "devDependencies": {
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-typescript": "7.12.0",

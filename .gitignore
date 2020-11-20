@@ -3,6 +3,7 @@ node_modules
 /dist
 /testumdbuild
 .eslintcache
+/test-folder
 
 # local env files
 .env.local

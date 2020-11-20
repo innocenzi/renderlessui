@@ -1,0 +1,10 @@
+src/
+.eslintignore
+.eslintrc.js
+.gitignore
+.huskyrc
+.lintstagedrc
+babel.config.js
+vue.config.js
+yarn.lock
+public/

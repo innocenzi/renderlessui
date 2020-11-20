@@ -5,6 +5,7 @@ src/shims-vue.d.ts
 *.config.js
 src/main.ts
 test/
+dist/
 dist/*.hot-update.json
 dist/index.html
 dist/webpack-stats.json

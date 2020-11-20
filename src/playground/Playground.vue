@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld />
+  <Button />
 </template>
 
 <script>
-import HelloWorld from "@/components/helloworld";
+import Button from "@/components/button";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Button
   }
 };
 </script>
