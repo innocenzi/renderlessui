@@ -1,6 +1,6 @@
 {
   "name": "renderlessui",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "unpkg": "dist/vuelib.min.js",
