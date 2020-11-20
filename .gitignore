@@ -2,6 +2,7 @@
 node_modules
 /dist
 /testumdbuild
+.eslintcache
 
 # local env files
 .env.local
